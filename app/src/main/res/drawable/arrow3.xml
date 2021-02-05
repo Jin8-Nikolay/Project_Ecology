@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--    <item-->
+    <!--        android:left="-9dp"-->
+    <!--        android:top="-9dp">-->
+    <!--        <rotate-->
+    <!--            android:fromDegrees="45"-->
+    <!--            android:toDegrees="45"-->
+    <!--            android:pivotX="100%"-->
+    <!--            android:pivotY="27%">-->
+    <!--            <shape-->
+    <!--                android:shape="rectangle" >-->
+    <!--                <stroke android:color="@android:color/transparent" android:width="10dp"/>-->
+    <!--                <solid-->
+    <!--                    android:color="@color/colorProgress" />-->
+    <!--                <corners android:radius="10dp" />-->
+    <!--            </shape>-->
+    <!--        </rotate>-->
+    <!--    </item>-->
+    <item
+        android:bottom="20dp"
+        android:right="20dp">
+        <rotate
+            android:fromDegrees="44"
+            android:pivotX="56%"
+            android:pivotY="76%"
+            android:toDegrees="90">
+            <shape android:shape="rectangle">
+                <stroke
+                    android:width="30dp"
+                    android:color="@android:color/transparent" />
+                <solid android:color="@color/colorPrimaryDark" />
+                <corners android:radius="2dp" />
+            </shape>
+        </rotate>
+    </item>
+    <item
+        android:left="1dp"
+        android:right="1dp">
+        <rotate
+            android:pivotX="100%"
+            android:pivotY="27%"
+            android:toDegrees="45">
+            <shape android:shape="rectangle">
+                <stroke
+                    android:width="48dp"
+                    android:color="@android:color/transparent" />
+                <solid android:color="@color/colorPrimaryDark" />
+                <corners android:radius="3dp" />
+            </shape>
+        </rotate>
+    </item>
+    <item
+        android:bottom="20dp"
+        android:right="20dp">
+        <rotate
+            android:fromDegrees="44"
+            android:pivotX="61%"
+            android:pivotY="74%"
+            android:toDegrees="90">
+            <shape android:shape="rectangle">
+                <stroke
+                    android:width="30dp"
+                    android:color="@android:color/transparent" />
+                <solid android:color="#AAFA96" />
+                <corners android:radius="2dp" />
+            </shape>
+        </rotate>
+    </item>
+    <item>
+        <rotate
+            android:pivotX="100%"
+            android:pivotY="27%"
+            android:toDegrees="45">
+            <shape android:shape="rectangle">
+                <stroke
+                    android:width="50dp"
+                    android:color="@android:color/transparent" />
+                <solid android:color="#AAFA96" />
+                <corners android:radius="3dp" />
+            </shape>
+        </rotate>
+    </item>
+
+</layer-list>

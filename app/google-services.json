@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "677955219538",
+    "firebase_url": "https://smashcan-78cbb.firebaseio.com",
+    "project_id": "smashcan-78cbb",
+    "storage_bucket": "smashcan-78cbb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677955219538:android:beb4c536f02be495b06f8b",
+        "android_client_info": {
+          "package_name": "com.example.p01_projectecology"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677955219538-1d6vqpa9oiojbuk27tnsbvkj0hka5cc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW63WIbDaFImkPFv_DhX1IB5bs1eMoY-8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677955219538-1d6vqpa9oiojbuk27tnsbvkj0hka5cc6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <rotate
+            android:fromDegrees="270"
+            android:toDegrees="270">
+            <shape
+                android:innerRadius="60dp"
+                android:innerRadiusRatio="2.5"
+                android:shape="ring"
+                android:thickness="30dp"
+                android:useLevel="true">
+                <solid android:color="#45EEC1" />
+<!--                <gradient-->
+<!--                    android:type="sweep"-->
+<!--                    android:centerColor="#45EEC1"-->
+<!--                    android:endColor="#31D8AC"-->
+<!--                    android:startColor="#43EE96" />-->
+            </shape>
+        </rotate>
+    </item>
+<!--    <item>-->
+<!--        <rotate android:fromDegrees="270" android:toDegrees="270">-->
+<!--            <shape-->
+<!--                android:innerRadiusRatio="2.55"-->
+<!--                android:shape="ring"-->
+<!--                android:thickness="15dp"-->
+<!--                android:useLevel="true">-->
+<!--                <solid android:color="#45EEC1" />-->
+<!--            </shape>-->
+<!--        </rotate>-->
+<!--    </item>-->
+    <item android:bottom="150dp">
+        <shape
+            android:innerRadiusRatio="1000"
+            android:shape="ring"
+            android:thickness="15dp"
+            android:useLevel="false">
+            <solid android:color="#45EEC1" />
+        </shape>
+    </item>
+    <item>
+        <rotate>
+            <inset android:insetBottom="151dp">
+                <shape
+                    android:innerRadiusRatio="1000"
+                    android:shape="ring"
+                    android:thickness="15dp"
+                    android:useLevel="false">
+                    <solid android:color="#45EEC1" />
+                </shape>
+            </inset>
+        </rotate>
+    </item>
+</layer-list>

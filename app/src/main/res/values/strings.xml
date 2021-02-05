@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">P01_ProjectEcology</string>
+    <string name="confidential">Умови конфіденційності</string>
+    <string name="sign_up">Зареєструватись</string>
+    <string name="sign_in">Увійти</string>
+    <string name="smash_can">Smash Can</string>
+    <string name="some_id">Сортувати сміття - весело!</string>
+    <string name="mind_and_confidentiality">Умови конфіденційності</string>
+    <string name="confidentiality_text1">Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat.</string>
+    <string name="confidentiality_text2">
+        Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident,
+        sunt in culpa qui officia deserunt mollit anim id
+        est laborum.</string>
+    <string name="confidentiality_text3">
+        Pellentesque habitant morbi tristique senectus et
+        netus et malesuada fames ac turpis egestas ipsum.
+        Vestibulum tortor quam, feugiat vitae, ultricies eget,
+        tempor sit amet, ante eu libero sit amet quam.</string>
+    <string name="confidentiality_text4">
+        Aenean ultricies mi vitae est. Mauris placerat
+        eleifend leo. Quisque sit est et sapien ullamcorper.</string>
+    <string name="forgotpass">Забули пароль?</string>
+    <string name="password">Пароль</string>
+    <string name="email">Email</string>
+    <string name="login">Логін</string>
+    <string name="email_pol">E-mail</string>
+    <string name="create_account">Створити акаунт</string>
+    <string name="signUp_text">Реєструючись, я приймаю</string>
+    <string name="confidential_if">Умови використання.</string>
+    <string name="go">Далі</string>
+    <string name="text_bio">Smash Can допоможе Вам сортувати біо-відходи</string>
+    <string name="text_paper">Smash Can допоможе Вам сортувати папір</string>
+    <string name="text_plastuk">Smash Can допоможе Вам сортувати пластик</string>
+    <string name="text_brows">Обрати тип відходів</string>
+    <string name="plastuk">Пластик</string>
+    <string name="bio">Біо-відходи</string>
+    <string name="paper">Папір</string>
+    <string name="Заповненість">Заповненість</string>
+    <string name="Заряд">Заряд</string>
+    <string name="Режим_очистки_контейнера">Режим очистки контейнера</string>
+    <string name="Точка">Точка доступу Wi-Fi</string>
+    <string name="title_activity_choose_game">ChooseGame</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="edit">Редагувати</string>
+    <string name="e_mail">E-mail</string>
+    <string name="surname">Призвіще</string>
+    <string name="geo">Місце знаходження</string>
+    <string name="name">Ім\'я</string>
+    <string name="setting">Налаштування</string>
+    <string name="more_details">Докладніше</string>
+    <string name="back">Обратно</string>
+
+</resources>

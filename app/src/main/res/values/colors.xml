@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C5CCD6</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#2BDA8E</color>
+    <color name="colorBorder">#D8D8D8</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorGray">#979797</color>
+    <color name="colorBrows">#323643</color>
+    <color name="colorPodDark">#444444</color>
+    <color name="colorGreenBorder">#1DD1A1</color>
+    <color name="colorProgressFon">#85D8D8D8</color>
+    <color name="colorProgress">#EB658D</color>
+</resources>

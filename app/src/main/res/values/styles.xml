@@ -1,0 +1,93 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="smash_can">
+        <item name="android:textSize">
+            48sp
+        </item>
+        <item name="android:textColor">
+            #37F1C8
+        </item>
+    </style>
+
+    <style name="some_id">
+        <item name="android:textSize">
+            18sp
+        </item>
+        <item name="android:textColor">
+            #333945
+        </item>
+    </style>
+
+    <style name="header_logo_in">
+        <item name="android:textSize">
+            26sp
+        </item>
+        <item name="android:textColor">
+            @android:color/black
+        </item>
+        <item name="fontFamily">
+            @font/roboto_bold
+        </item>
+    </style>
+
+    <style name="pole">
+        <item name="android:selectAllOnFocus">
+            true
+        </item>
+        <item name="android:textColor">
+            @android:color/black
+        </item>
+        <item name="android:textColorHint">
+            @color/colorPrimary
+        </item>
+    </style>
+
+    <style name="Hyperlink">
+        <item name="android:textColor">
+            @color/colorGray
+        </item>
+        <item name="android:background">
+            @drawable/hyperlink_underline
+        </item>
+    </style>
+
+    <style name="text_color">
+        <item name="android:textColor">
+            @color/colorGray
+        </item>
+    </style>
+
+    <style name="text_type">
+        <item name="android:textColor">
+            @color/colorPrimaryDark
+        </item>
+        <item name="android:textSize">
+            16sp
+        </item>
+    </style>
+
+    <style name="browse">
+        <item name="android:textSize">
+            26sp
+        </item>
+        <item name="android:textColor">
+            @color/colorBrows
+        </item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
