@@ -114,7 +114,8 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
             String URL = "http://smash.risc.com.ua/api.php";
             try {
                 String post_data = URLEncoder.encode("type", "UTF-8") + "=" + URLEncoder.encode(type, "UTF-8");
-                return smash = getResult(post_data, URL);
+                smash = getResult(post_data, URL);
+                return smash;
             } catch (MalformedURLException e) {
                 e.printStackTrace();
             } catch (IOException e) {
@@ -139,7 +140,6 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
                 preferenceClass = new PreferenceClass(context, "");
                 String id = preferenceClass.getUser();
                 String photo = preferenceClass.getPhoto();
-                Log.d("photo", photo);
                 String post_data = URLEncoder.encode("type", "UTF-8") + "=" + URLEncoder.encode(type, "UTF-8") + "&"
                         + URLEncoder.encode("id", "UTF-8") + "=" + URLEncoder.encode(id, "UTF-8") + "&"
                         + URLEncoder.encode("photo", "UTF-8") + "=" + URLEncoder.encode(photo, "UTF-8");

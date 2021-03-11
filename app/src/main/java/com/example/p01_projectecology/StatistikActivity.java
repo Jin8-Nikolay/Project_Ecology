@@ -33,7 +33,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class StatistikActivity extends AppCompatActivity{
+public class StatistikActivity extends AppCompatActivity {
     ProgressBar pbc;
     TextView progress;
     ImageView profile;
@@ -44,24 +44,23 @@ public class StatistikActivity extends AppCompatActivity{
     Switch wifi, clean;
     private Boolean userActive;
 
-    protected void onCreate(Bundle savedInstanceState){
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Bundle arguments = getIntent().getExtras();
         preferenceClass = new PreferenceClass(this, "");
-        if (hasConnection(this)){
-            String type = "update_bak";
+        if (hasConnection(this)) {
             BackgroundWorker backgroundWorker = new BackgroundWorker(this);
-            backgroundWorker.execute(type);
+            backgroundWorker.execute("update_bak");
         }
-        ar = new ArrayList<Integer>();
+//        ar = new ArrayList<Integer>();
 //        if (userActive){
-            setContentView(R.layout.activity_statistik);
-            prog();
-            try {
-                init();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+        setContentView(R.layout.activity_statistik);
+        prog();
+        try {
+            init();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 //        }else {
 //            AlertDialog alertDialog = new AlertDialog.Builder(StatistikActivity.this).create();
 //            alertDialog.setTitle("Login Status");
@@ -72,6 +71,7 @@ public class StatistikActivity extends AppCompatActivity{
 //            finish();
 //        }
     }
+
     public void init() throws IOException {
         wifi = (Switch) findViewById(R.id.switch1);
         clean = (Switch) findViewById(R.id.switch2);
@@ -80,7 +80,7 @@ public class StatistikActivity extends AppCompatActivity{
         setProfilePhoto();
     }
 
-    public void prog(){
+    public void prog() {
         pb = (ProgressTextView) findViewById(R.id.progressBar2);
         pbc = (ProgressBar) findViewById(R.id.progressBar);
         pbc.setProgress(Integer.parseInt(preferenceClass.getBakFullness()));
@@ -127,22 +127,19 @@ public class StatistikActivity extends AppCompatActivity{
         Intent achievements = new Intent(this, AchievementsActivity.class);
         startActivity(achievements);
     }
-    public static boolean hasConnection(final Context context)
-    {
-        ConnectivityManager cm = (ConnectivityManager)context.getSystemService(Context.CONNECTIVITY_SERVICE);
+
+    public static boolean hasConnection(final Context context) {
+        ConnectivityManager cm = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo wifiInfo = cm.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
-        if (wifiInfo != null && wifiInfo.isConnected())
-        {
+        if (wifiInfo != null && wifiInfo.isConnected()) {
             return true;
         }
         wifiInfo = cm.getNetworkInfo(ConnectivityManager.TYPE_MOBILE);
-        if (wifiInfo != null && wifiInfo.isConnected())
-        {
+        if (wifiInfo != null && wifiInfo.isConnected()) {
             return true;
         }
         wifiInfo = cm.getActiveNetworkInfo();
-        if (wifiInfo != null && wifiInfo.isConnected())
-        {
+        if (wifiInfo != null && wifiInfo.isConnected()) {
             return true;
         }
         return false;

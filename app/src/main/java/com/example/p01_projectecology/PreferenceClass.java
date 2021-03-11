@@ -3,6 +3,7 @@ package com.example.p01_projectecology;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.text.TextUtils;
+import android.util.Log;
 
 import java.util.ArrayList;
 
@@ -73,11 +74,6 @@ public class PreferenceClass {
 
     public void saveBakInfo(ArrayList<String> arrayList) {
         SharedPreferences.Editor editor = sharedpreferences.edit();
-//        editor.putString("No", arrayList.get(0));
-//        editor.putString("Battery", arrayList.get(1));
-//        editor.putString("Fullness", arrayList.get(2));
-//        editor.putString("Date", arrayList.get(3));
-//        editor.putString("Time", arrayList.get(4));
         editor.putString("Battery", arrayList.get(0));
         editor.putString("Fullness", arrayList.get(1));
         editor.apply();
