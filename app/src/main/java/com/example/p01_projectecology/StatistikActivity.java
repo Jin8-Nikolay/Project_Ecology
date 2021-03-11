@@ -52,8 +52,6 @@ public class StatistikActivity extends AppCompatActivity {
             BackgroundWorker backgroundWorker = new BackgroundWorker(this);
             backgroundWorker.execute("update_bak");
         }
-//        ar = new ArrayList<Integer>();
-//        if (userActive){
         setContentView(R.layout.activity_statistik);
         prog();
         try {
@@ -61,15 +59,6 @@ public class StatistikActivity extends AppCompatActivity {
         } catch (IOException e) {
             e.printStackTrace();
         }
-//        }else {
-//            AlertDialog alertDialog = new AlertDialog.Builder(StatistikActivity.this).create();
-//            alertDialog.setTitle("Login Status");
-//            alertDialog.setMessage("Користувач не залогінився");
-//            alertDialog.show();
-//            alertDialog.getWindow().setLayout(1000,1000);
-//            setContentView(R.layout.activity_main);
-//            finish();
-//        }
     }
 
     public void init() throws IOException {
@@ -89,7 +78,6 @@ public class StatistikActivity extends AppCompatActivity {
 
     public void game(View view) {
         Intent game = new Intent(StatistikActivity.this, ChooseGameActivity.class);
-//        game.putExtra("userActive", userActive);
         startActivity(game);
     }
 
@@ -144,11 +132,6 @@ public class StatistikActivity extends AppCompatActivity {
         }
         return false;
     }
-
-//    public void test(View view) {
-//        Intent test = new Intent(this, ChooseActivity.class);
-//        startActivity(test);
-//    }
 }
 
 
